@@ -1,0 +1,13 @@
+$primary-color: #007bff;
+$secondary-color: #0056b3;
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: $primary-color;
+    &:hover {
+        background-color: $secondary-color;
+    }
+}
