@@ -1,12 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# MY-SHOP
 
-Currently, two official plugins are available:
+> Это онлайн-магазин с разными товарами(Электроника, одежда, книги), которое использует JSON Server для хранения данных и Vite для разработки.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Оглавление
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. [Требования]
+2. [Установка]
+3. [Запуск приложения]
+4. [Структура проекта]
+5. [Используемые технологии]
+6. [Лицензия]
+
+---
+
+## Требования
+
+Перед запуском приложения убедитесь, что у вас установлены следующие инструменты:
+
+- [Node.js](https://nodejs.org/) (версия 16 или выше)
+- [npm](https://www.npmjs.com/) (обычно устанавливается вместе с Node.js)
+- [Git](https://git-scm.com/) (опционально, для клонирования репозитория)
+
+---
+
+## Установка
+
+1. **Клонируйте репозиторий** (если у вас есть удаленный репозиторий):
+   ```bash
+   git clone https://github.com/ваш-username/ваш-репозиторий.git
+   cd ваш-репозиторий
+   ```
+
+2. **Установите зависимости**:
+   Откройте терминал в корневой папке проекта и выполните команду:
+   ```
+   npm install
+   ```
+
+---
+
+## Запуск приложения
+
+Для запуска приложения необходимо открыть **два терминала** в Visual Studio Code.
+
+### 1. Запуск JSON Server
+В первом терминале выполните команду:
+```
+json-server --watch public/data.json --port 3001
+```
+Это запустит JSON Server, который будет использовать файл `public/data.json` как базу данных и слушать на порту `3001`.
+
+### 2. Запуск приложения
+Во втором терминале выполните команду:
+```
+npm run dev
+```
+Это запустит ваше приложение с помощью Vite. После успешного запуска откроется браузер с адресом `http://localhost:5173` (или другим портом, если `5173` занят).
+
+---
+
+## Используемые технологии
+
+- [Vite](https://vitejs.dev/) — инструмент для быстрой разработки.
+- [React](https://reactjs.org/) — библиотека для создания пользовательских интерфейсов.
+- [JSON Server](https://github.com/typicode/json-server) — фейковый REST API для разработки.
+- [npm](https://www.npmjs.com/) — менеджер пакетов для JavaScript.
+
+---
