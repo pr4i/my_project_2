@@ -1,0 +1,150 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Микрофонная стойка Fifine BM88",
+        "price": 100,
+        "description": "микрофонная стойка-пантограф с кабельным каналом",
+        "image": "stoika.jpg",
+        "category": "Электроника",
+        "rating": 4.1
+      },
+      {
+        "id": 2,
+        "title": "17.3 Ноутбук ASUS TUF Gaming F17 FX707ZC4-HX014 серый",
+        "price": 850,
+        "description": "Игровой ноутбук",
+        "image": "asustuf.jpg",
+        "category": "Электроника",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "title": "Клавиатура проводная Дарк Проджект KD87A ",
+        "price": 89,
+        "description": "Игровая клавиатура с подсветкой",
+        "image": "darkproject.jpg",
+        "category": "Электроника",
+        "rating": 3.5
+      },
+      {
+        "id": 4,
+        "title": "Мышь проводная ARDOR GAMING Fury",
+        "price": 30,
+        "description": "Проводная мышь черного цвета",
+        "image": "ardorm.jpg",
+        "category": "Электроника",
+        "rating": 4.8
+      },
+      {
+        "id": 5,
+        "title": "USB-разветвитель Ugreen CM219",
+        "price": 45,
+        "description": "USB-разветвитель",
+        "image": "ugreen.jpg",
+        "category": "Электроника",
+        "rating": 3.2
+      },
+      {
+        "id": 6,
+        "title": "Куртка утепленная",
+        "price": 23,
+        "description": "Утепленная куртка зеленого цвета. Подходит для зимы",
+        "image": "kurtka.jpg",
+        "category": "Одежда",
+        "rating": 5.0
+      },
+      {
+        "id": 7,
+        "title": "Брюки черные",
+        "price": 10,
+        "description": "брюки джинсовые оверсайз",
+        "image": "bruki.jpg",
+        "category": "Одежда",
+        "rating": 4.2
+      },
+      {
+        "id": 8,
+        "title": "Бейсболка",
+        "price": 9,
+        "description": "разноцветная бейсболка",
+        "image": "kepka.jpg",
+        "category": "Одежда",
+        "rating": 4.6
+      },
+      {
+        "id": 9,
+        "title": "Шорты",
+        "price": 12,
+        "description": "черные шорты",
+        "image": "kepka.jpg",
+        "category": "Одежда",
+        "rating": 4.6
+      },
+      {
+        "id": 10,
+        "title": "Белое худи",
+        "price": 15,
+        "description": "Худи)",
+        "image": "hoodie.jpg",
+        "category": "Одежда",
+        "rating": 3.9
+      },
+      {
+        "id": 11,
+        "title": "Джинсовая куртка",
+        "price": 25,
+        "description": "Классическая джинсовая куртка",
+        "image": "djins.jpg",
+        "category": "Одежда",
+        "rating": 4.3
+      },
+      {
+        "id": 12,
+        "title": "Белое худи",
+        "price": 15,
+        "description": "Худи)",
+        "image": "hoodie.jpg",
+        "category": "Одежда",
+        "rating": 4.1
+      },
+      {
+        "id": 13,
+        "title": "Спортивные шорты",
+        "price": 18,
+        "description": "Спортивные шорты зеленого цвета",
+        "image": "greenshort.jpg",
+        "category": "Одежда",
+        "rating": 4.3
+      },
+      {
+        "id": 14,
+        "title": "Армия Римской империи в начале новой эры",
+        "price": 15,
+        "description": "Грэм Уэбстер",
+        "image": "rimbook.jpg",
+        "category": "Книги",
+        "rating": 4.8
+      },
+      {
+        "id": 15,
+        "title": "Бисквит со всех сторон. Классика и необычные кондитерские решения",
+        "price": 20,
+        "description": "Татьяна Обухова",
+        "image": "biskvit.jpg",
+        "category": "Книги",
+        "rating": 4.9
+      }
+    
+
+
+     
+
+      
+      
+      
+      
+
+
+    ] }
+  
